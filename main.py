@@ -3,12 +3,9 @@ from discord.ext import commands
 from discord.ui import View, Button
 from dotenv import load_dotenv
 import os
-
-import dotenv
-
 from dotenv import load_dotenv
-load_dotenv()
 
+load_dotenv()
 token = os.getenv('DISCORD_TOKEN')
 
 intents = discord.Intents.default()
